@@ -2,7 +2,9 @@
     "name": "node-red-bellied-black-snake",
     "description": "A Node-RED Project",
     "version": "0.0.1",
-    "dependencies": {},
+    "dependencies": {
+        "node-red-contrib-wait-paths": "0.3.2"
+    },
     "node-red": {
         "settings": {
             "flowFile": "flows_ip-172-31-19-42.us-west-2.compute.internal.json",
